@@ -147,11 +147,11 @@ If you use the Plandex CLI and then for some reason you reset the database or us
 To resolve this, remove the following in any directory you used the CLI in:
 
 - `.plandex-dev` directory if you ran the CLI with `PLANDEX_ENV=development`
-- `.plandex` directory otherwise
+- `.plandex-v2` directory otherwise
 
 Then run `plandex sign-in` again to create a new account.
 
 If you're still having trouble with accounts, you can also remove the following from your $HOME directory to fully reset them:
 
 - `.plandex-home-dev` directory if you ran the CLI with `PLANDEX_ENV=development`
-- `.plandex-home` directory otherwise
+- `.plandex-home-v2` directory otherwise
